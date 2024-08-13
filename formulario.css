@@ -1,0 +1,93 @@
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #830981;
+    border: 1px solid #830981;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    /* Estiliza os links (<a>) dentro dos itens da lista como botões. Define padding interno, cores de texto e fundo, borda, borda arredondada e transição suave para animações de hover.*/
+}
+
+nav a:hover {
+    background-color: #d501ff;
+    color: #fff;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #2e0047;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #775a84;
+    
+}
+label{ /*cor das informações*/
+    color: #eee;
+}
+legend{/*cor Escolha waifu*/
+    color: #eee;
+}
+form h1 {
+    color: #eee;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form select[disabled] {
+    background-color: #eee;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.success {
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
